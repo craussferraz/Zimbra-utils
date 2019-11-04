@@ -25,7 +25,7 @@ Script auxiliar do zmbkp.sh para copiar arquivos para outro diretorio.
 
 Cria aparti de um arquivo .cvs usuários, email e cota(em Bytes ex.: para 100MB use: 104857600).
 
-### LimaEmailsAntigos.sh
+### [LimpaEmailsAntigosZimbra.sh](https://github.com/craussferraz/Zimbra-utils/blob/master/LimpaEmailsAntigosZimbra.sh)
 
 Script apaga as mensagens anteriores a uma data de uma ou mais contas.
 
