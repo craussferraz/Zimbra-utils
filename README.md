@@ -29,6 +29,10 @@ Cria aparti de um arquivo .cvs usuários, email e cota.
 
 Script apaga as mensagens anteriores a uma data de uma ou mais contas.
 
+### LimpaFilaEmail.sh 
+
+Script para excluir e-mails de um remetente ou um destinatario da fila de e-mails.
+
 ### removeFechadasGAL.sh
 
 Esconde contas fechadas do GAL.
