@@ -23,7 +23,7 @@ Script auxiliar do zmbkp.sh para copiar arquivos para outro diretorio.
 
 ### criaUsusarioQuota.sh 
 
-Cria aparti de um arquivo .cvs usuários, email e cota.
+Cria aparti de um arquivo .cvs usuários, email e cota(em Bytes ex.: para 100MB use: 104857600).
 
 ### LimaEmailsAntigos.sh
 
