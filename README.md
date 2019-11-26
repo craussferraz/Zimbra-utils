@@ -45,7 +45,7 @@ Esse script foi desenvolvido para fazer backup de uma ou mais contas simultaneam
 ## Template Zabbix de monitoramento de filas de e-mails:
 
 ![alt_text](https://github.com/craussferraz/Zimbra-utils/blob/master/zabbix-3.4-zimbra/graph.png)
-Criei esse template para me auxiliar a monitorar situaçoes na minha fila de e-mails no meu Zimbra de forma a identificar problemas como contas em over quota, problemas retenção de mensagens e envio indevido de spam em tempo hábil.
+Criei esse template para me auxiliar a monitorar situações na minha fila de e-mails no meu Zimbra de forma a identificar problemas como contas em over quota, problemas retenção de mensagens e envio indevido de spam em tempo hábil.
 
 ### Como fazer
 
