@@ -1,0 +1,2 @@
+# install in /etc/sudoers.d/
+zabbix ALL=NOPASSWD: /opt/zimbra/libexec/zmqstat
