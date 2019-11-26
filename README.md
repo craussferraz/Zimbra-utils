@@ -3,7 +3,7 @@
 Olá, nesse repositório vocês poderão encontra diversos scripts para execução em modo texto para **servidores de e-mail Zimbra** que colecionei ou criei ao passar dos anos utilizando o Zimbra. 
 
 
-## Desvendando os Scripts
+## Desvendando os Scripts:
 Abaixo vai uma breve explicação do funcionamento de cada  script:
 
 ### [checkleakedmail.sh](https://github.com/craussferraz/Zimbra-utils/blob/master/checkleakedmail.sh)
@@ -40,3 +40,20 @@ Esconde contas fechadas do GAL.
 ### [zmbkp.sh](https://github.com/craussferraz/Zimbra-utils/blob/master/zmbkp.sh)
 
 Esse script foi desenvolvido para fazer backup de uma ou mais contas simultaneamente com o objetivo de diminuir o tempo total do processo de backup.
+
+
+## Template Zabbix de monitoramento de filas de e-mails:
+
+![alt_text](https://github.com/craussferraz/Zimbra-utils/blob/master/zabbix-3.4-zimbra/graph.png)
+Criei esse template para me auxiliar a monitorar situaçoes na minha fila de e-mails no meu Zimbra de forma a identificar problemas como contas em over quota, problemas retenção de mensagens e envio indevido de spam em tempo hábil.
+
+### Como fazer
+
+	1 - Copie o arquivo zabbix-queue-monitor /etc/sudoers.d/
+	    1.1 - Altere a permissão do arquivo para 0440
+	2 - Copie o arquivo userparameter_queue-monitor.conf para /etc/zabbix/zabbix_agentd.d
+	3 - Reinicie o zabbix-agent
+	4 - No seu servidor zabbix, importe o arquivo [Template Zimbra queue monitor.xml](https://github.com/craussferraz/Zimbra-utils/blob/master/zabbix-3.4-zimbra/Template%20Zimbra%20queue%20monitor.xml "Template Zimbra queue monitor.xml")
+	5- Adicione o template aos seus hosts Zimbra.
+
+Aproveitem!
