@@ -53,7 +53,7 @@ Criei esse template para me auxiliar a monitorar situaçoes na minha fila de e-m
 	    1.1 - Altere a permissão do arquivo para 0440
 	2 - Copie o arquivo userparameter_queue-monitor.conf para /etc/zabbix/zabbix_agentd.d
 	3 - Reinicie o zabbix-agent
-	4 - No seu servidor zabbix, importe o arquivo [Template Zimbra queue monitor.xml](https://github.com/craussferraz/Zimbra-utils/blob/master/zabbix-3.4-zimbra/Template%20Zimbra%20queue%20monitor.xml "Template Zimbra queue monitor.xml")
+	4 - No seu servidor Zabbix, importe o arquivo Template Zimbra queue monitor.xml
 	5- Adicione o template aos seus hosts Zimbra.
 
 Aproveitem!
