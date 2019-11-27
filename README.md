@@ -56,7 +56,7 @@ Criei esse template para me auxiliar a monitorar situações na minha fila de e-
 	4 - No seu servidor Zabbix, importe o arquivo Template Zimbra queue monitor.xml
 	5- Adicione o template aos seus hosts Zimbra.
 
-## Ajuste no tiggers
+## Ajuste no triggers
 
 ![alt_text](https://github.com/craussferraz/Zimbra-utils/blob/master/zabbix-3.4-zimbra/alertas.png)
 
