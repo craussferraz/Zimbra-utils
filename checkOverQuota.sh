@@ -9,8 +9,8 @@ percMaxAviso=95 # percentual para aviso
 TMPMAIL=/tmp/quota.mail
 LISTAEMAIL="< ti@triforsec.com.br >; < crauss.ferraz@triforsec.com.br >" # Informe aqui os destinatários da mensagem de aviso
 echo "to: "$LISTAEMAIL >$TMPMAIL
-echo "from: root@florarte.com.br " >>$TMPMAIL
-echo "subject: Warning Over Quota – Correio Local Flor Arte" >>$TMPMAIL
+echo "from: root@triforsec.com.br " >>$TMPMAIL
+echo "subject: Warning Over Quota " >>$TMPMAIL
 
 echo >>$TMPMAIL
 echo >>$TMPMAIL
